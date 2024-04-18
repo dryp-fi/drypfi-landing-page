@@ -16,10 +16,10 @@ const LogoCarousel = () => {
     { src: arb, alt: 'arb' },
     { src: base, alt: 'base' },
     { src: scroll, alt: 'scroll' },
-    { src: mantle, alt: 'mantle' },
-    { src: gnosis, alt: 'gnosis' },
-    { src: bnb, alt: 'bnb' },
-    { src: linea, alt: 'linea' },
+    // { src: mantle, alt: 'mantle' },
+    // { src: gnosis, alt: 'gnosis' },
+    // { src: bnb, alt: 'bnb' },
+    // { src: linea, alt: 'linea' },
   ];
 
   return (
@@ -32,7 +32,7 @@ const LogoCarousel = () => {
               alt={logo.alt}
               height={45}
               width={45}
-              className='rounded-full'
+              className='rounded-full h-[30px] w-[30px] md:h-[45px] md:w-[45px]'
             />
           </li>
         ))}
@@ -47,7 +47,7 @@ const LogoCarousel = () => {
               alt={logo.alt}
               height={45}
               width={45}
-              className='rounded-full'
+              className='rounded-full h-[30px] w-[30px] md:h-[45px] md:w-[45px]'
             />
           </li>
         ))}
