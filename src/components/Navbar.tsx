@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
 
       <button
         onClick={() => {
-          window.open('https://app.dryp.fi', '_blank');
+          window.open('https://drypfi-frontend.vercel.app/', '_blank');
         }}
         className='bg-white py-2 md:px-8 px-4 rounded-md text-black text-xs md:text-base'>
         Launch App

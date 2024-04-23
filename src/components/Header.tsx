@@ -33,17 +33,28 @@ const Header = () => {
 
       <LogoCarousel />
 
-      <div className='flex gap-4 items-center mt-20'>
+      <div className='flex gap-6 items-center mt-20'>
         <p className='md:text-sm text-xs'>Powered by </p>
         <Image
           onClick={() => {
-            window.open('https://www.layerzero.network/', '_blank');
+            window.open('https://chain.link/cross-chain', '_blank');
           }}
-          src={'/icons/layerzero.png'}
-          height={40}
-          width={120}
-          alt='LayerZero'
-          className='cursor-pointer h-[25px] w-[80px] md:h-[40px] md:w-[120px]'
+          src={'/icons/newCCIP.png'}
+          height={80}
+          width={170}
+          alt='CCIP Chainlink'
+          className='cursor-pointer h-[30px] w-[80px] md:h-[40px] md:w-[100px]'
+        />
+
+        <Image
+          onClick={() => {
+            window.open('https://www.circle.com/en/', '_blank');
+          }}
+          src={'/icons/circle.png'}
+          height={20}
+          width={80}
+          alt='Circle CCTP'
+          className='cursor-pointer h-[25px] w-[80px] md:h-[28px] md:w-[100px]'
         />
       </div>
     </div>
